@@ -5,6 +5,7 @@ A simple site to manage git repositories.
 Create a lightweight site to use locally (i.e. to run on a local network Raspberry Pi) to manage several git repositories.  
 * List current projects  
 * Show recent commits
+* "squash" commits
 * Push to GitHub
 
 ## References
