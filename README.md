@@ -7,6 +7,7 @@ Create a lightweight site to use locally (i.e. to run on a local network Raspber
 * Show recent commits
 * "squash" commits
 * Push to GitHub
+* Pull from GitHub (or maybe highlight it's out of sync?)
 
 ## References
 A list of handy libraries...
