@@ -1,5 +1,8 @@
-# Flask-Git [Work in Progress]
+# Flask-Git [Work in Progress [<img src="https://icons.duckduckgo.com/ip2/waffle.io.ico">](https://waffle.io/NixonInnes/Flask-Git)]
 A simple site to manage git repositories.  
+
+
+
 
 ## Problem
 I frequently switch between machines during the production of software, which can lead to me pushing commits before theyre mature simply so I can grab the updates on another machine. I'd like a solution to where I can push commits to an intermediatary repository, where I can "squash" all the half-commits into a sensible one before committing to a public repository.  
