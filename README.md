@@ -10,8 +10,14 @@ Create a lightweight site to use locally (i.e. to run on a local network Raspber
 * List current projects  
 * Show recent commits
 * "squash" commits (rebase)
-* Push to GitHub
+* Push to GitHub 
 * Pull from GitHub (or maybe highlight it's out of sync?)
+
+## Getting Involved
+This project is part of the June '16 [DevHack](https://github.com/devolio-devchat/devhack) competition. Please check it out!  
+If you would like to get involved, please check the [DevHack website](https://github.com/devolio-devchat/devhack). You can find me in the [Slack](http://devchat.devolio.net/) under `@nixoninnes`, usually skulking around `#python` or `#devhack`.  
+If you are already a part of the [DevHack](https://github.com/devolio-devchat/devhack) then please see the [Waffle Board](https://waffle.io/NixonInnes/Flask-Git) to see where you can help out.  
+Please feel free to get in touch on [Slack](http://devchat.devolio.net/) or [drop me a line](mailto://nixoninnes@echonet.com).
 
 ## References
 A list of handy libraries...
