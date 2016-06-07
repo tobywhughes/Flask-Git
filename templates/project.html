@@ -3,11 +3,20 @@
 
 {% block page_content %}
 <div class="page-header">
-    <h1>{{ name }}</h1>
+    <h1>{{ project.description }}</h1>
 </div>
 <div class="row">
-    <div class="col-md-offset-1 col-md-10">
-        
+    <div class="col-md-12">
+    	<h3>Commits</h3>
+    	<table class="table">
+    		{% for commit in project.iter_commits() %}
+    		<tr>
+    			<td>{{ commit.committed_datetime.strftime('%Y-%m-%d %H:%M') }}</td>
+    			<td>{{ commit.message }}</td>
+    			<td>{{ commit.author.name }} ({{ commit.author.email }})</td>
+    		</tr>
+    		{% endfor %}
+    	</table>
     </div>
 </div>
 

@@ -13,6 +13,7 @@ def get_projects():
     for project in os.listdir(config['projects_directory']):
         project_directory = os.path.join(config['projects_directory'], project)
         projects[project] = git.Repo(project_directory)
+        projects[project].description = project # I'm not sure this is a good idea
     return projects
 
 app = Flask(__name__)
