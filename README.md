@@ -9,7 +9,7 @@ This could also be useful when developing in a team where you don't want to make
 Create a lightweight site to use locally (i.e. to run on a local network Raspberry Pi) to manage several git repositories.  
 * List current projects  
 * Show recent commits
-* "squash" commits
+* "squash" commits (rebase)
 * Push to GitHub
 * Pull from GitHub (or maybe highlight it's out of sync?)
 
